@@ -8,7 +8,7 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 z-50 w-full shadow-xl bg-black border-gray-200 px-4 py-2.5 text-white">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <Avatar avatar={"src/assets/avatar.png"} nombre={"DAVID VALDEZATE"} />
+        <Avatar avatar={"https://i.imgur.com/X82wxBu.png"} nombre={"DAVID VALDEZATE"} />
 
         <button
           onClick={() => setIsOpen(!isOpen)}
