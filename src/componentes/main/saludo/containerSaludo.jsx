@@ -13,7 +13,7 @@ export function ContainerSaludo() {
         <div className="relative text-white p-12 w-full md:w-3/4">
           <Saludo 
             nombre="Hola, soy David Valdezate" 
-            descripcion="Soy un programador web entusiasta, recientemente graduado del curso de Desarrollo de Aplicaciones Web 2 (DAW2), con habilidades sólidas en HTML, CSS, JavaScript y frameworks modernos como React.js." 
+            descripcion="Soy un desarrollador web con formación especializada, habiendo completado exitosamente el programa de Desarrollo de Aplicaciones Web 2 (DAW2). Poseo un dominio avanzado en tecnologías fundamentales como HTML, CSS y JavaScript, complementado por un conocimiento profundo en Python y frameworks modernos como React.js. Mi formación y habilidades técnicas me permiten crear soluciones web que son tanto innovadoras como eficaces, orientadas a cumplir y superar las expectativas de los proyectos más exigentes." 
           />
         </div>
       </div>
