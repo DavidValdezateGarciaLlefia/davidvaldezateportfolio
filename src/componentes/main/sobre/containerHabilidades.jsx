@@ -20,6 +20,9 @@ export function ContainerHabilidades({ titulo }) {
         <Habilidades habilidad="API" />
         <Habilidades habilidad="SQL" />
         <Habilidades habilidad="MySQL" />
+        <Habilidades habilidad="React" />
+        <Habilidades habilidad="Tailwind" />
+        <Habilidades habilidad="Bootstrap" />
       </div>
     </div>
   );
