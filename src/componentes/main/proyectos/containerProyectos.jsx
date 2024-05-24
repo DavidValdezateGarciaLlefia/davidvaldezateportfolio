@@ -7,29 +7,32 @@ export function ContainerProyectos() {
         <Titulo titulo="PROYECTOS" sobre="Aquí podréis ver unos proyectos que he hecho yo y sus respectivas páginas." />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Proyecto 
-            imagen="https://i.imgur.com/gj6tGBt.png" 
-            titulo="Tetris" 
-            parrafo="El conocido juego de Tetris fue creado en 1984 y ha sido llevado a muchas plataformas, y aquí hay otro más pero para página web."
-            link="https://davidvaldezategarciallefia.github.io/DavidValdezateGarciaM6H7TetrisFinal/"
-          />
-          <Proyecto 
-            imagen="https://i.imgur.com/iIdNhah.png" 
-            titulo="Incidencias" 
-            parrafo="El propósito de este proyecto es recrear una página web para incidencias por roles para un colegio, y sus ordenadores."
-            link="https://davidvaldezate2324dawm6projectegestioinc.onrender.com"
-          />
-          <Proyecto 
-            imagen="https://i.imgur.com/N00oOXc.png" 
-            titulo="Vanilla" 
-            parrafo="VanillaGames es un proyecto creado para clase, el cual este tiene para ver proyectos creados por alumnos."
-            link="https://davidvaldezategarciallefia.github.io/m9ValdezateVanillaMain/index"
-          />
-          <Proyecto 
-            imagen="https://i.imgur.com/0ORyCS8.png" 
-            titulo="Memory" 
-            parrafo="Aquí hay un juego de memory con cartas de pokémon obtenidas a través de la API: PokeApi."
-            link="https://david-valdezate-da-wm6-projecte-memory-v1.vercel.app"
-          />
+  imagen="https://i.imgur.com/gj6tGBt.png" 
+  titulo="Tetris" 
+  parrafo="Este proyecto revivifica el clásico juego de Tetris, creado originalmente en 1984, adaptándolo para la web. La implementación hace uso intensivo de JavaScript, empleando técnicas avanzadas de manejo de arrays y una integración con bases de datos para guardar puntuaciones y configuraciones de usuario, lo que permite una experiencia interactiva y dinámica en la web."
+  link="https://davidvaldezategarciallefia.github.io/DavidValdezateGarciaM6H7TetrisFinal/"
+/>
+
+<Proyecto 
+  imagen="https://i.imgur.com/iIdNhah.png" 
+  titulo="Incidencias" 
+  parrafo="Este proyecto desarrolla una solución web para la gestión de incidencias informáticas en un entorno educativo. Utilizando técnicas de manipulación del DOM y delegación de eventos en JavaScript, el sistema permite una gestión de roles diferenciada para personalizar la experiencia del usuario según sus permisos. Se integra además con una base de datos para el almacenamiento eficiente de las incidencias reportadas."
+  link="https://davidvaldezate2324dawm6projectegestioinc.onrender.com"
+/>
+
+<Proyecto 
+  imagen="https://i.imgur.com/N00oOXc.png" 
+  titulo="Vanilla" 
+  parrafo="VanillaGames es un proyecto académico que facilita la visualización y gestión de proyectos estudiantiles. El sistema, desarrollado con JavaScript puro, implementa funciones avanzadas para la interacción con bases de datos y la administración de contenido, promoviendo una plataforma colaborativa y educativa para los estudiantes."
+  link="https://davidvaldezategarciallefia.github.io/m9ValdezateVanillaMain/index"
+/>
+
+<Proyecto 
+  imagen="https://i.imgur.com/0ORyCS8.png" 
+  titulo="Memory" 
+  parrafo="Este juego interactivo de memoria utiliza cartas de Pokémon obtenidas a través de la PokeApi. Desarrollado con el framework React, el proyecto explora técnicas avanzadas como el uso de fetch para consumir APIs y la integración con bases de datos no locales mediante Supabase, ofreciendo una experiencia de juego moderna y responsive."
+  link="https://david-valdezate-da-wm6-projecte-memory-v1.vercel.app"
+/>
         </div>
       </div>
     );
