@@ -15,3 +15,14 @@
   .animate-float {
     animation: float 3s ease-in-out infinite;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :target::before {
+    content: "";
+    display: block;
+    height: 70px; 
+    margin: -70px 0 0;
+  }
