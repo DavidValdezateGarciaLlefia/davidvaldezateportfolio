@@ -8,7 +8,7 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 z-50 w-full shadow-xl bg-black border-gray-200 px-4 py-2.5 text-white">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <Avatar avatar={"https://i.imgur.com/X82wxBu.png"} nombre={"DAVID VALDEZATE"} />
+        <Avatar avatar={"src/assets/avatar.png"} nombre={"DAVID VALDEZATE"} />
 
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -37,7 +37,7 @@ export function Navbar() {
 
         <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 mt-4 bg-black rounded-lg md:flex-row md:space-x-8 md:mt-0 md:bg-transparent">
-            <ListaMenu palabraMenu={"HOME"} href="#home" />
+            <ListaMenu palabraMenu={"HOME"} href="#sobre-mi" />
             <ListaMenu palabraMenu={"SOBRE MI"} href="#sobre-mi" />
             <ListaMenu palabraMenu={"TRAYECTORIA"} href="#trayectoria" />
             <ListaMenu palabraMenu={"PROYECTOS"} href="#proyectos" />
