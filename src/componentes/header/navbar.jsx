@@ -37,7 +37,7 @@ export function Navbar() {
 
         <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 mt-4 bg-black rounded-lg md:flex-row md:space-x-8 md:mt-0 md:bg-transparent">
-            <ListaMenu palabraMenu={"HOME"} href="#sobre-mi" />
+            <ListaMenu palabraMenu={"HOME"} href="#saludodiv" />
             <ListaMenu palabraMenu={"SOBRE MI"} href="#sobre-mi" />
             <ListaMenu palabraMenu={"TRAYECTORIA"} href="#trayectoria" />
             <ListaMenu palabraMenu={"PROYECTOS"} href="#proyectos" />
